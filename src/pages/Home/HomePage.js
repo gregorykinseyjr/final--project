@@ -1,12 +1,12 @@
 import React from 'react';
-import banner1 from '../../assets/images/kinseys.jpeg';
-import banner2 from '../../assets/images/us.jpg';
-import banner3 from '../../assets/images/us1.jpg';
-import banner4 from '../../assets/images/Greg-Esraa.jfif';
-import post1 from '../../assets/images/Amira.jfif';
-import post2 from '../../assets/images/Alijah.jfif';
-import post3 from '../../assets/images/Ayleah.jfif';
-import post4 from '../../assets/images/Amare.jpeg';
+import kinseys from '../../assets/images/kinseys.jpeg';
+import us from '../../assets/images/us.jpg';
+import us1 from '../../assets/images/us1.jpg';
+import gregesraa from '../../assets/images/Greg-Esraa.jfif';
+import amira from '../../assets/images/Amira.jfif';
+import alijah from '../../assets/images/Alijah.jfif';
+import ayleah from '../../assets/images/Ayleah.jfif';
+import amare from '../../assets/images/Amare.jpeg';
 
 
 
@@ -23,13 +23,13 @@ const HomePage = ({ isLoggedIn }) => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={banner1} className="" alt='banner1' />
+                        <img src={kinseys} className="" alt='kinseys' />
                     </div>
                     <div className="carousel-item">
-                        <img src={banner2} className="" alt='banner2' />
+                        <img src={us} className="" alt='us' />
                     </div>
                     <div className="carousel-item">
-                        <img src={banner3} className="" alt='banner3' />
+                        <img src={us1} className="" alt='us1' />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -49,7 +49,7 @@ const HomePage = ({ isLoggedIn }) => {
                     <div className="col-lg-8">
                         {/* <!-- Featured blog post--> */}
                         <div className="card mb-4">
-                            <a href="#!"><img className="card-img-top" src={banner4}
+                            <a href="#!"><img className="card-img-top" src={gregesraa}
                                 alt="banner4" /></a>
                             <div className="card-body">
                                 <div className="small text-muted">Sept 18, 2021</div>
@@ -63,7 +63,7 @@ const HomePage = ({ isLoggedIn }) => {
                             <div className="col-lg-6">
                                 <div className="card mb-4">
                                     <a href="#"><img className="card-img-top"
-                                        src={post1} alt="post1" /></a>
+                                        src={amira} alt="post1" /></a>
                                     <div className="card-body">
                                         <div className="small text-muted">January 21, 2021</div>
                                         <h2 className="card-title h4">Amira</h2>
@@ -73,7 +73,7 @@ const HomePage = ({ isLoggedIn }) => {
                                 </div>
                                 <div className="card mb-4">
                                     <a href="#"><img className="card-img-top"
-                                        src={post2} alt="post2" /></a>
+                                        src={alijah} alt="post2" /></a>
                                     <div className="card-body">
                                         <div className="small text-muted">October 11, 2009</div>
                                         <h2 className="card-title h4">Alijah</h2>
@@ -85,7 +85,7 @@ const HomePage = ({ isLoggedIn }) => {
                             <div className="col-lg-6">
                                 <div className="card mb-4">
                                     <a href="#"><img className="card-img-top"
-                                        src={post3} alt="post3" /></a>
+                                        src={ayleah} alt="post3" /></a>
                                     <div className="card-body">
                                         <div className="small text-muted">September 26, 2014</div>
                                         <h2 className="card-title h4">Ayleah</h2>
@@ -95,7 +95,7 @@ const HomePage = ({ isLoggedIn }) => {
                                 </div>
                                 <div className="card mb-4">
                                     <a href="#"><img className="card-img-top"
-                                        src={post4} alt="post4" /></a>
+                                        src={amare} alt="post4" /></a>
                                     <div className="card-body">
                                         <div className="small text-muted">September 18, 2005</div>
                                         <h2 className="card-title h4">Amare</h2>
