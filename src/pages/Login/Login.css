@@ -1,0 +1,10 @@
+.login_form{
+    padding: 50px 0 100px 0;
+    min-height: calc(100vh - 120px);
+}
+
+.loginNow{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
